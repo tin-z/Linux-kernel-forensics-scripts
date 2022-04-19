@@ -1,8 +1,14 @@
 import gdb
 import sys
 
+#Twitter: https://twitter.com/kzalloc1
+#GitHub: https://github.com/tin-z
 
+
+
+###                        #
 ## Configurable variables ##
+#                        ###
 
 vmlinux_path = "vmlinux"
 systemmap_path = "System.map"
@@ -11,8 +17,10 @@ DBG=1
 VERBOSE=0
 
 
+###         #
+## Colours ##
+#         ###
 
-## Colours
 EC = '\x1b[0m'
 BOLD = '\x1b[1m'
 INIT = {'f':30,'b':40,'hf':90,'hb':100}
@@ -29,8 +37,9 @@ PTR.update( { "F1":lambda x : BOLD + RED['f'] + BLACK['b'] + "|{}|".format(x) + 
 PTR.update( { "F2":lambda x : BOLD + GREEN['f'] + BLACK['b'] + "|{}|".format(x) + EC } )
 
 
-
-## Utils
+###       #
+## Utils ##
+#       ###
 
 class Sym_kernel :
 
@@ -89,8 +98,9 @@ class Sym_kernel_dyn(Sym_kernel) :
 sym_addr_lookup, sym_lookup  = Sym_kernel_static.parse_systemmap(systemmap_path)
 
 
-
-## Main
+###      #
+## Main ##
+#      ###
 
 print("\n### Check 1: Syscall table integrity check")
 
