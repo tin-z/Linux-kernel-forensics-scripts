@@ -1,6 +1,6 @@
-# gdb-python-scripts
+# Linux-kernel-forensics-scripts
 
-This repo will contain gdb python scripts from scratch. The aim of the repo is to practice with the gdb python API.
+Gdb, r2, python scripts i made to perform binary analysis and forensic tasks. Keywords: Linux kernel, processes, x86
 
 
 ## Contents ##
