@@ -30,8 +30,6 @@ Gdb, r2, python scripts i made to perform binary analysis and forensic tasks. Ke
 ![example_pictures/es2.jpg](example_pictures/es2.jpg)
 
 
-
-
 ## Refs ##
 
  - [PythonGdbTutorial - GDB wiki](https://sourceware.org/gdb/wiki/PythonGdbTutorial)
@@ -39,5 +37,3 @@ Gdb, r2, python scripts i made to perform binary analysis and forensic tasks. Ke
  - [PythonGDB tutorial for reverse engineering - part 1](https://blog.lse.epita.fr//2012/05/01/pythongdb-tutorial-for-reverse-engineering-part.html)
  - 13. Breakpoints - tromey blog, http://tromey.com/blog/?p=698
  - [Simple GDB Extensions with Python](https://blog.0x972.info/?d=2016/01/08/09/14/47-simple-gdb-extensions-with-python)
-
-
